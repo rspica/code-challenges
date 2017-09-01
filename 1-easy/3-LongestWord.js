@@ -28,9 +28,11 @@ console.log(LongestWord('hello big yellow fox'));
 
 //----------------------------------------------
 function wordSort(sentence) {
-	var words = sentence.split(' ');
-	var longest = words.sort(function(a, b){return b.length-a.length});
-	return longest[0];
+    var words = sentence.split(' ');
+    var longest = words.sort(function(a, b) {
+        return b.length - a.length
+    });
+    return longest[0];
 }
 
 // keep this function call here 
